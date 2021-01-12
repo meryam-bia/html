@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forme personnelle</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                <h1>forme personnelle</h1>
+            </legend>
+            <label for="nom">Nom :</label>
+            <input type="text" name="nom" id="nom" placeholder="your name plz"><br /><br />
+            <label for="prenom">prenom :</label>
+            <input type="text" placeholder="your last name plz"><br /><br />
+            <label type="email">email :</label>
+            <input type="text" name="email" placeholder="your mail plz"><br /><br />
+            <label for="password">password :</label>
+            <input type="password" name="password" placeholder="your password plz"><br /><br />
+            <label for="date">date</label>
+            <input type="date" value="2021-01-12" max="2002-01-12" min="1940-01-12">
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h1>loisir</h1>
+            </legend>
+            <input type="checkbox"> sport
+            <input type="checkbox"> voyager
+            <input type="checkbox"> lire
+        </fieldset>
+        <input type="submit" value="send" style="color: blue;">
+        <button type="reset" style="color: blue;" >vider</button>
+
+    </form>
+</body>
+
+</html>
